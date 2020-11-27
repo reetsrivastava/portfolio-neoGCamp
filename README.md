@@ -1,2 +1,2 @@
 # portfolio-neoGCamp
- A SImple Portfolio website 
+ A Simple Portfolio website
