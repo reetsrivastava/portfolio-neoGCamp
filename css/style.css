@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color:#00bfa6;
+    --secondary-color:#575a89;
+    --dark-grey:#6B7280;
+    --off-white: #f8f8f8;
+}
+
+body {
+    font-family: 'Montserrat',sans-serif;
+    
+}
+
+h2 {
+    color: var(--secondary-color);
+}
+
+/* links */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+    border: 1px solid var(--primary-color);
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/* lists */
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0 0.5rem;
+}
+
+/* Navigation */
+
+.navigation {
+    max-width: 600px;
+    background-color: var(--off-white);
+    color: var(--primary-color);
+    padding: 1rem 1rem 0.5rem 1rem;
+    margin: auto;
+}
+
+.navigation .link {
+    color: var(--primary-color);
+    
+}
+
+nav .link:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-brand {
+    font-weight: bold;
+}
+
+.nav-pills {
+   text-align: right;
+}
+
+/* header */
+
+.hero {
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+}
+
+.hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading {
+    color: var(--secondary-color);
+    padding-top: 1rem;
+    
+}
+
+ .hero .link-about {
+    color: var(--primary-color);
+    padding: 0;
+}
+
+/* Section */
+
+section {
+    margin: auto;
+    max-width: 600px;
+}
+
+.container {
+    padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.off-white {
+    background-color: var(--off-white);
+}
+
+section .link {
+    color: var(--primary-color);
+    padding: 0;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+
+footer h2 {
+    color: white;
+}
+
+.footer-header {
+    padding: 0 1rem;
+}
+
+footer .link {
+    color: white;
+}
+
+.list-item {
+    padding: 0.5rem ;
+}
+
+/* Blogs and Projects */
+
+.add-ons {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
