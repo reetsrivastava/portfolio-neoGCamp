@@ -157,5 +157,16 @@ footer .link {
     padding: 1rem;
 }
 
+@media(max-width:400px) {
+    nav .list-item-inline {
+        display: block;
+    }
+    .link-primary {
+        display: block;
+        margin: 1rem auto;
+    }
+
+}
+
 
 
