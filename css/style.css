@@ -157,7 +157,7 @@ footer .link {
     padding: 1rem;
 }
 
-@media(max-width:400px) {
+@media screen and (max-width:400px) {
     nav .list-item-inline {
         display: block;
     }
